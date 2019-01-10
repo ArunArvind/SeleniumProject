@@ -25,8 +25,8 @@ public class NewTest2 {
 		driver.findElement(By.name("userName")).sendKeys("tutorial");
 		driver.findElement(By.name("password")).sendKeys("tutorial");
 		driver.findElement(By.name("login")).click();
-//		String title=driver.getTitle();
-//		Assert.assertEquals(title, "Find a Flight: Mercury Tours:");
+		String title=driver.getTitle();
+		Assert.assertEquals(title, "Find a Flight: Mercury Tours:");
 	
 		
 	}
